@@ -14,7 +14,7 @@ function lerVetor() {
     }
     if (q>0) {
     for (var i = 0; i < r.length; i++) {
-    pResposta.innerHTML += r[i] + '<br>';
+    pResposta.innerHTML += r[i] + '; Posição: ' + cr + '<br>';
     }} else {
    	pResposta.innerHTML += 'Nenhum número inserido é maior que 50.';
     }
