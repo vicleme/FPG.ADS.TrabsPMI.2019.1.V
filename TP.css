@@ -1,0 +1,89 @@
+*{margin: auto; padding: 0;}
+
+body {
+	background-color: #ADD4EC;
+	text-align: center;
+}
+h1 {
+	color:#0F3E59;
+}
+
+p {
+	color:#35A1E7;
+}
+
+#caixa {
+			border-width: 2px;
+			border-style: dashed;
+			width: 400px;
+			margin: auto;
+			padding: 10px;
+			background-color: #C7E4F6
+		}
+
+
+#caixalarga {
+			border-width: 2px;
+			border-style: dashed;
+			width: 600px;
+			margin: auto;
+			padding: 10px;
+			background-color: #C7E4F6
+		}
+
+.botao {
+			color: white;
+			background-color: #004B87;
+			border-style: none;
+			padding: 10px;
+		}
+.botao:hover {
+			background-color: #027496;
+		}
+
+#resposta {
+	color: #0074C1;
+}
+
+.lista {
+list-style:none; 
+border:1px solid black;
+background:#004B87;
+width: 60px;
+}
+
+.lista li{
+position:relative; 
+}
+
+.lista li a{color:#48D1CC; 
+text-decoration:none; 
+padding:5px 10px; 
+display:block;}
+ 
+.lista li a:hover{
+background:#191970; 
+color:white; 
+-moz-box-shadow:0 3px 10px 0 #ccc; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.lista li ul{
+position:absolute; 
+top:0px; 
+left:60px;
+background-color: #191970; 
+display:none;
+}
+
+.lista li:hover ul, .lista li.over ul {
+display:block;
+}
+
+.lista li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}
+

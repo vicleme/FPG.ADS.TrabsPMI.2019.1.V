@@ -1,0 +1,44 @@
+body {
+	background-color: #ADD4EC;
+	text-align: center;
+}
+h1 {
+	color:#0F3E59;
+}
+
+p {
+	color:#35A1E7;
+}
+
+#caixa {
+			border-width: 2px;
+			border-style: dashed;
+			width: 400px;
+			margin: auto;
+			padding: 10px;
+			background-color: #C7E4F6
+		}
+
+
+#caixalarga {
+			border-width: 2px;
+			border-style: dashed;
+			width: 600px;
+			margin: auto;
+			padding: 10px;
+			background-color: #C7E4F6
+		}
+
+.botao {
+			color: white;
+			background-color: #004B87;
+			border-style: none;
+			padding: 10px;
+		}
+.botao:hover {
+			background-color: #027496;
+		}
+
+#resposta, #resposta1, #resposta2 {
+	color: #0074C1;
+}
